@@ -1,0 +1,57 @@
+﻿
+
+  Shell Sort----> Insertion Sort
+
+       Knuth's Formula
+	  h=h*3+1
+		interval
+
+    
+	35 33 42 10 14 19 16 27 44
+        
+       35---------14
+	   33----------19
+               42 --------16
+
+Algo: 1) Initilize the value of h(interval)/Decide your interval/default interval =1
+      2) Create a smaller sublist
+      3) Sort the sublist
+      4) Repeat this, till the whole list is sorted
+-----------------------------------------------------------------------
+
+Merge Sort---- works like Quick Sort.
+Uses: Divide and Conquer
+Algo: 1) It divides the array into 2 equal halves
+       2) Sort the halves
+      3) Merge the sorted halves
+      Again the process is repeated till the sort is complete.
+
+8 elements
+         12 31 25 8 32 17 40 42
+
+         12 31 25 8 		|	32 17 40 42
+
+          12  31   |      25   8    |	32    17   |   40   42
+
+            12 | 31 | 25| 8 | 32 |17 |40 |42
+
+          12| 31 | 8|25| 17|32| 40|42
+
+
+      12 31    |   8 25 | 17 32| 40 42
+   8 |12 |25| 31         17 32  40  42
+
+1) sort
+
+
+2) merge
+
+      8 | 12 | 17 |25 |31| 32 |40 |42
+
+
+
+
+
+
+
+
