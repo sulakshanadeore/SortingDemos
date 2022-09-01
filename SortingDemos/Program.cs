@@ -8,6 +8,11 @@ namespace SortingDemos
 {
     class Program
     {
+
+      //  Algo: 1) Initilize the value of h(interval)/Decide your interval/default interval =1
+      //2) Create a smaller sublist
+      //3) Sort the sublist
+      //4) Repeat this, till the whole list is sorted
         static void Main(string[] args)
         {
             ShellSort();
