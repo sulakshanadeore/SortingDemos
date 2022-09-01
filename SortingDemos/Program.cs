@@ -12,6 +12,7 @@ namespace SortingDemos
         {
             ShellSort();
             Console.Read();
+
         }
       static void printAll(int[] arr)
         {
